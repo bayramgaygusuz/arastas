@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Aras'ın Hazine Odası</title>
+<meta name="description" content="Aras'ın taş, mineral, kristal ve fosil koleksiyonu.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath d='M32 6 52 24 32 58 12 24Z' fill='%23a78bfa'/%3E%3Cpath d='M32 6 42 24H22Z' fill='%23ddd6fe'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;700;800&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="aurora" aria-hidden="true"></div>
+
+<header class="hero">
+  <svg class="logo" viewBox="0 0 64 64" aria-hidden="true">
+    <defs><linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#c4b5fd"/><stop offset="1" stop-color="#7c3aed"/></linearGradient></defs>
+    <path d="M32 6 52 24 32 58 12 24Z" fill="url(#g1)"/>
+    <path d="M32 6 42 24H22Z" fill="#ede9fe" opacity=".9"/>
+    <path d="M12 24h40L32 58Z" fill="#000" opacity=".18"/>
+    <path d="M22 24 32 58 42 24" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width="1.2"/>
+  </svg>
+  <h1>Aras'ın Hazine Odası</h1>
+  <p class="sub">Taş • Mineral • Kristal • Fosil koleksiyonu</p>
+  <div class="stats" id="stats"></div>
+  <div class="actions">
+    <button class="btn primary" id="btnShow">▶ Sunum</button>
+    <button class="btn" id="btnQuiz">🎯 Bil Bakalım</button>
+  </div>
+</header>
+
+<section class="toolbar" aria-label="Filtreler">
+  <input id="q" type="search" placeholder="Ara: ametist, mor, kuvars…" aria-label="Ara">
+  <div class="chips" id="chips" role="group" aria-label="Tür"></div>
+  <select id="sort" aria-label="Sırala">
+    <option value="ad">A → Z</option>
+    <option value="mohs-d">Sert → Yumuşak</option>
+    <option value="mohs-a">Yumuşak → Sert</option>
+    <option value="sira">Eklenme sırası</option>
+  </select>
+</section>
+
+<section class="mohs" aria-label="Mohs sertlik cetveli">
+  <div class="mohs-title">Mohs sertlik cetveli <span>(bir sayıya dokun, o sertlikteki taşları gör)</span></div>
+  <div class="mohs-row" id="mohsRow"></div>
+</section>
+
+<main>
+  <div class="count" id="count"></div>
+  <div class="grid" id="grid"></div>
+  <p class="empty" id="empty" hidden>Bu aramaya uyan taş yok. Başka bir şey dene!</p>
+</main>
+
+<footer>
+  <p>Fotoğraflar Aras ve babası tarafından çekildi. Ad ve özellikler <b>tahmindir</b>; <span class="badge guess">?</span> işaretli olanları birlikte doğrulayacağız.</p>
+</footer>
+
+<!-- Detay -->
+<div class="modal" id="modal" hidden role="dialog" aria-modal="true" aria-labelledby="mTitle">
+  <div class="sheet">
+    <button class="x" id="mClose" aria-label="Kapat">✕</button>
+    <button class="nav prev" id="mPrev" aria-label="Önceki">‹</button>
+    <button class="nav next" id="mNext" aria-label="Sonraki">›</button>
+    <div class="stage" id="mStage">
+      <img id="mImg" alt="">
+      <div class="seg" id="mSeg">
+        <button data-v="cut" class="on">Taş</button>
+        <button data-v="photo">Fotoğraf</button>
+      </div>
+    </div>
+    <div class="info">
+      <div class="tags" id="mTags"></div>
+      <h2 id="mTitle"></h2>
+      <dl class="props" id="mProps"></dl>
+      <div class="mbar" id="mBar"></div>
+      <p class="fact" id="mFact"></p>
+      <p class="note" id="mNote" hidden></p>
+      <div class="slidectl" id="slideCtl" hidden>
+        <button class="btn sm" id="playBtn">⏸ Duraklat</button>
+        <button class="btn sm" id="fsBtn">⛶ Tam ekran</button>
+        <span id="pos"></span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Quiz -->
+<div class="modal" id="quiz" hidden role="dialog" aria-modal="true" aria-label="Bil Bakalım">
+  <div class="sheet quizsheet">
+    <button class="x" id="qClose" aria-label="Kapat">✕</button>
+    <div class="qhead"><span id="qProg"></span><span id="qScore"></span></div>
+    <div class="qstage"><img id="qImg" alt="Bu hangi taş?"></div>
+    <h3 id="qAsk">Bu hangi taş?</h3>
+    <div class="opts" id="qOpts"></div>
+    <p class="qfb" id="qFb"></p>
+    <button class="btn primary" id="qNext" hidden>Sonraki →</button>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
