@@ -1,56 +1,724 @@
 [
-{"id":"20261028_210810","ad":"Metalik Gri Cevher","tur":"mineral","kimlik":"bilinmiyor","renk":"Gri, metalik","mohs":null,"formul":"","bilgi":"Parlak metalik görünüşü var. Galen, hematit ya da pirit olabilir. Çizgi testi (porselene sürtme) ve manyetik testle ayırt edilir.","not":""},
-{"id":"20261028_211107","ad":"Küçük Gri Mineral","tur":"mineral","kimlik":"bilinmiyor","renk":"Gri-kahve","mohs":null,"formul":"","bilgi":"Henüz kimliği belli değil. Büyüteçle bakıp sertlik testi yapalım.","not":""},
-{"id":"20261028_211111","ad":"Gül Kuvars (Ay)","tur":"kristal","kimlik":"tahmin","renk":"Pembe","mohs":[7,7],"formul":"SiO₂","sistem":"Trigonal","bilgi":"Pembe rengini çok az titanyum, mangan ya da demir verir. Nadiren belirgin kristal oluşturur, çoğunlukla süt gibi yekpare bulunur.","not":""},
-{"id":"20261028_211115","ad":"Pembe-Gri Geod Taşı","tur":"kristal","kimlik":"tahmin","renk":"Pembe, gri","mohs":[6.5,7],"formul":"SiO₂","bilgi":"Kalsedon ya da agat türü olabilir. İçi oyuk kayalar volkanik gazlardan oluşan boşluklarda kristal büyütür.","not":""},
-{"id":"20261028_211126","ad":"Titanyum Aura Kuvars","tur":"kristal","kimlik":"tahmin","renk":"Gökkuşağı (mavi, mor, altın)","mohs":[7,7],"formul":"SiO₂ + metal kaplama","sistem":"Trigonal","bilgi":"Doğal kuvarsın üstüne vakumda titanyum buharı kaplanır, ince tabaka ışığı gökkuşağı gibi kırar. Yani rengi doğal değil, insan yapımı.","not":""},
-{"id":"20261028_211133","ad":"Oyma Beyaz Taş","tur":"kristal","kimlik":"bilinmiyor","renk":"Beyaz, pembemsi","mohs":null,"formul":"","bilgi":"Elle oyulmuş bir figür. Hangi taştan yapıldığını sertliğini ölçerek bulabiliriz (kalsit ise 3, kuvars ise 7).","not":""},
-{"id":"20261028_211143","ad":"Ametist Kümesi","tur":"kristal","kimlik":"tahmin","renk":"Mor","mohs":[7,7],"formul":"SiO₂","sistem":"Trigonal","parlaklik":"Camsı","bilgi":"Mor kuvarstır. Rengini içindeki demir ve doğal radyasyon verir. Isıtılırsa sarıya (sitrin) dönebilir. Eski Yunanda 'sarhoş etmeyen' anlamına gelir.","not":""},
-{"id":"20261102_151019","ad":"Deniz Salyangozu Kabuğu","tur":"fosil","kimlik":"tahmin","renk":"Krem, kahverengi çizgili","mohs":[3,4],"formul":"CaCO₃","bilgi":"Kabuk, yumuşakçanın vücudundan salgıladığı kalsiyum karbonattan yapılır. Dik spiral yapısı büyüdükçe genişleyen bir ev gibidir.","not":""},
-{"id":"20261102_151106","ad":"Kalsit Yumurta","tur":"mineral","kimlik":"tahmin","renk":"Sarımsı, yarı saydam","mohs":[3,3],"formul":"CaCO₃","sistem":"Trigonal","bilgi":"Kalsit çok yumuşaktır, çiviyle çizilebilir. Üzerine sirke damlatırsan köpürür. Mermer ve kalkerin ana maddesidir.","not":""},
-{"id":"20261102_151125","ad":"Malakit Damarlı Kaya","tur":"mineral","kimlik":"tahmin","renk":"Yeşil, kahverengi","mohs":[3.5,4],"formul":"Cu₂CO₃(OH)₂","sistem":"Monoklinik","bilgi":"Bakır yataklarının üst kısmında oluşur. Yeşil rengi bakırdan gelir. Antik Mısırlılar öğüterek göz boyası yaptı.","not":""},
-{"id":"20261102_151143","ad":"Sarı-Yeşil Mineral","tur":"mineral","kimlik":"bilinmiyor","renk":"Sarı, yeşil","mohs":null,"formul":"","bilgi":"Serpantin ya da epidot olabilir. Kimliğini bulmak için sertlik ve çizgi rengi testi yapalım.","not":""},
-{"id":"20261102_151154","ad":"Fosil Kabuk","tur":"fosil","kimlik":"tahmin","renk":"Krem","mohs":[3,4],"formul":"CaCO₃","bilgi":"Milyonlarca yıl önce deniz dibinde yaşayan bir canlının kabuğu taşlaşmış olabilir.","not":""},
-{"id":"20261102_151204","ad":"Volkanik Kaya (Cüruf)","tur":"kaya","kimlik":"tahmin","renk":"Kahverengi","mohs":null,"formul":"","bilgi":"Lav hızla soğurken içindeki gaz kabarcıkları dışarı kaçıp delikler bıraktı. Bazalt türü magmatik (püskürük) bir kayadır.","not":""},
-{"id":"20261102_151215","ad":"Volkanik Kaya (Cüruf)","tur":"kaya","kimlik":"tahmin","renk":"Kahverengi","mohs":null,"formul":"","bilgi":"Gözenekli yapısı hafiftir. Bazı volkanik taşlar gözenekleri çok olduğu için suda yüzer (pomza gibi).","not":""},
-{"id":"20261102_151220","ad":"Fosil Midye Kabuğu","tur":"fosil","kimlik":"tahmin","renk":"Krem","mohs":[3,4],"formul":"CaCO₃","bilgi":"Yaşam halkaları ağacın yıllık halkaları gibi büyüme çizgilerini gösterir.","not":""},
-{"id":"20261102_151234","ad":"Spiral Kabuk","tur":"fosil","kimlik":"tahmin","renk":"Krem, beyaz","mohs":[3,4],"formul":"CaCO₃","bilgi":"Spiral şekil doğada çok sık görülür: salyangoz, ay çiçeği, galaksiler.","not":""},
-{"id":"20261102_151257","ad":"Siyah Taş","tur":"kaya","kimlik":"bilinmiyor","renk":"Siyah, koyu gri","mohs":null,"formul":"","bilgi":"Şist, kömür ya da bazalt olabilir. Sert mi yumuşak mı diye çizerek bakalım.","not":""},
-{"id":"20261102_151322","ad":"Limonit (Demir Cevheri)","tur":"mineral","kimlik":"tahmin","renk":"Kahverengi, turuncu pas","mohs":[4,5.5],"formul":"FeO(OH)·nH₂O","bilgi":"Pas renginin kaynağı. Demir su ve oksijenle buluşunca oluşur. Sarı kahve boya (oker) olarak kullanıldı.","not":""},
-{"id":"20261102_151509","ad":"Kuvars (Süt Kuvars)","tur":"kristal","kimlik":"tahmin","renk":"Beyaz, yarı saydam","mohs":[7,7],"formul":"SiO₂","sistem":"Trigonal","parlaklik":"Camsı","bilgi":"Yer kabuğunda en bol bulunan minerallerden biri. Saat ve elektronik cihazlarda titreşim üretmek için de kullanılır.","not":""},
-{"id":"20261102_151654","ad":"Limonit / Göthit","tur":"mineral","kimlik":"tahmin","renk":"Siyah-kahve, sarı-turuncu","mohs":[4,5.5],"formul":"FeO(OH)","bilgi":"Üzümsü (botrioidal) yüzeyi bir demir minerali olduğuna işaret eder.","not":""},
-{"id":"20261102_151751","ad":"Oniks (Kalsit) Yumurta","tur":"mineral","kimlik":"tahmin","renk":"Krem, kehribar çizgili","mohs":[3,4],"formul":"CaCO₃","bilgi":"Ticarette 'oniks' denen yumurta ve heykelcikler çoğunlukla kalsit türü bantlı taştan yapılır.","not":""},
-{"id":"20261102_151805","ad":"Sarı-Yeşil Kaya","tur":"kaya","kimlik":"bilinmiyor","renk":"Yeşil, sarı, gri","mohs":null,"formul":"","bilgi":"Serpantin gibi yeşilimsi bir kaya olabilir. Sarı lekeler başka bir mineral olabilir.","not":""},
-{"id":"20261102_151817","ad":"Malakit / Bakır Cevheri","tur":"mineral","kimlik":"tahmin","renk":"Yeşil, kızılımsı","mohs":[3.5,4],"formul":"Cu₂CO₃(OH)₂","bilgi":"Yeşil renk bakır içeren minerallerin işaretidir. Özgürlük Heykeli de bakırdır; paslanınca yeşile döner.","not":""},
-{"id":"20261102_151848","ad":"Kuvars Geodu","tur":"kristal","kimlik":"tahmin","renk":"Beyaz, renksiz","mohs":[7,7],"formul":"SiO₂","sistem":"Trigonal","bilgi":"Kayanın içindeki boşlukta mineral çözeltisi yavaş yavaş kristallenir. Geodun içi dışından çok farklı görünür.","not":""},
-{"id":"20261102_151858","ad":"Volkanik Kaya (Bazalt)","tur":"kaya","kimlik":"tahmin","renk":"Kahverengi","mohs":null,"formul":"","bilgi":"Bazalt, okyanus tabanlarının büyük kısmını oluşturur.","not":""},
-{"id":"20261102_151906","ad":"Volkanik Kaya (Bazalt)","tur":"kaya","kimlik":"tahmin","renk":"Kahverengi","mohs":null,"formul":"","bilgi":"Gözenekleri lav soğurken kaçan gazlardan kalmıştır.","not":""},
-{"id":"20261102_151918","ad":"Fosil Midye","tur":"fosil","kimlik":"tahmin","renk":"Krem","mohs":[3,4],"formul":"CaCO₃","bilgi":"Midye gibi çift kabuklular (bivalv) 500 milyon yıldır yaşıyor.","not":""},
-{"id":"20261102_151924","ad":"Spiral Kabuk (Büyük)","tur":"fosil","kimlik":"tahmin","renk":"Krem","mohs":[3,4],"formul":"CaCO₃","bilgi":"Spiralin merkezinden dışa doğru her tur biraz daha büyür (logaritmik spiral).","not":""},
-{"id":"20261102_151943","ad":"Sarı Taş","tur":"mineral","kimlik":"bilinmiyor","renk":"Sarı, hardal","mohs":null,"formul":"","bilgi":"Limonit ya da sarı jasper olabilir. Çizgi rengine bakalım.","not":""},
-{"id":"20261102_151956","ad":"Yeşil-Sarı Kaya","tur":"kaya","kimlik":"bilinmiyor","renk":"Yeşil, sarı, siyah","mohs":null,"formul":"","bilgi":"Birkaç mineralin birlikte bulunduğu bir kaya. Serpantin olabilir.","not":""},
-{"id":"20261102_152007","ad":"Kaplan Gözü (Ham)","tur":"kristal","kimlik":"tahmin","renk":"Altın-kahve","mohs":[6.5,7],"formul":"SiO₂ (lif yapılı)","sistem":"Trigonal","parlaklik":"İpeksi","bilgi":"Kuvarsın içine sıkışmış lifler ışığı çizgi gibi yansıtır. Kediye benzeyen bu ışık oyununa şatuyans denir.","not":""},
-{"id":"20261102_152016","ad":"Kuvars Kristali","tur":"kristal","kimlik":"tahmin","renk":"Beyaz, şeffaf","mohs":[7,7],"formul":"SiO₂","sistem":"Trigonal","bilgi":"Kuvarsın kristalleri altıgen prizma şeklinde büyür, ucu sivri olur.","not":""},
-{"id":"20261102_152026","ad":"Akik / Kalsedon","tur":"kristal","kimlik":"tahmin","renk":"Kahve, bal, beyaz","mohs":[6.5,7],"formul":"SiO₂","bilgi":"Gözle görülemeyecek kadar ince kuvars kristallerinden oluşur (mikrokristalin). Taş devri aletleri de bu aileden yapıldı.","not":""},
-{"id":"20261102_152040","ad":"Mavi-Yeşil Bakır Taşı","tur":"mineral","kimlik":"bilinmiyor","renk":"Turkuaz, koyu yeşil","mohs":null,"formul":"","bilgi":"Krizokol ya da malakit olabilir. İkisi de bakır içerir ve yumuşaktır.","not":""},
-{"id":"20261102_152104","ad":"Renkli Silisli Taş","tur":"kristal","kimlik":"bilinmiyor","renk":"Mavi, kırmızı, beyaz","mohs":null,"formul":"","bilgi":"Jasper ya da opal türü olabilir. Renk karışımı farklı mineral katkılarından gelir.","not":""},
-{"id":"20261102_152116","ad":"Obsidyen","tur":"kaya","kimlik":"tahmin","renk":"Siyah","mohs":[5,5.5],"formul":"Volkanik cam (SiO₂ ~%70)","bilgi":"Lav çok hızlı soğuyunca kristal oluşamaz, cam olur. Kırıldığında bıçak gibi keskin kenar verir; taş devrinde kesici alet yapılırdı.","not":""},
-{"id":"20261102_152130","ad":"Koyu Pasli Mineral","tur":"mineral","kimlik":"bilinmiyor","renk":"Koyu kahve, siyah","mohs":null,"formul":"","bilgi":"Hematit ya da limonit olabilir. Çizgi renginden anlarız: hematit kırmızımsı, limonit sarımsı iz bırakır.","not":""},
-{"id":"20261102_152234","ad":"Kırmızı Jasper","tur":"kristal","kimlik":"tahmin","renk":"Kırmızı, kahverengi","mohs":[6.5,7],"formul":"SiO₂ + demir oksit","bilgi":"Kırmızı rengi demir oksitten gelir. Opak (ışık geçirmeyen) kuvars türüdür.","not":""},
-{"id":"20261102_152308","ad":"Karnelian (Akik)","tur":"kristal","kimlik":"tahmin","renk":"Kırmızı-turuncu","mohs":[6.5,7],"formul":"SiO₂","bilgi":"Parlatılmış karnelian ışığı geçirir. Antik çağda mühür taşı olarak kullanılırdı.","not":""},
-{"id":"20261102_152321","ad":"Çizgili Kumtaşı","tur":"kaya","kimlik":"tahmin","renk":"Bej, kırmızı-kahve","mohs":null,"formul":"","bilgi":"Kum taneciklerinin birikip sıkışmasıyla oluşan tortul kayadır. Çizgiler farklı katmanları gösterir.","not":""},
-{"id":"20261102_152335","ad":"Turuncu Kalsit / Kuvars","tur":"mineral","kimlik":"bilinmiyor","renk":"Turuncu, şeftali","mohs":null,"formul":"","bilgi":"Sertliği 3 ise kalsit, 7 ise kuvarstır. Çiviyle çizmeyi deneyelim.","not":""},
-{"id":"20261102_152347","ad":"Altın Benekli Kaya (Pirit?)","tur":"mineral","kimlik":"tahmin","renk":"Altın sarısı benekli, kırmızı-kahve","mohs":[6,6.5],"formul":"FeS₂","sistem":"Kübik","bilgi":"Piritin takma adı 'aptal altını'dır. Çelikle çarpınca kıvılcım çıkarır.","not":""},
-{"id":"20261102_152402","ad":"Kükürt","tur":"mineral","kimlik":"tahmin","renk":"Limon sarısı","mohs":[1.5,2.5],"formul":"S","sistem":"Ortorombik","bilgi":"Volkanların ve kaplıcaların yakınında bulunur. Yanarsa mavi alev verir ve kötü kokar. Çok yumuşaktır.","not":""},
-{"id":"20261102_152416","ad":"Kalker (Kireçtaşı)","tur":"kaya","kimlik":"tahmin","renk":"Bej, krem","mohs":null,"formul":"CaCO₃","bilgi":"Kalker, deniz canlılarının kabuklarının milyonlarca yıl birikmesiyle oluşur. Üzerine sirke damlatınca köpürür.","not":""},
-{"id":"20261102_152427","ad":"Şeffaf Kuvars","tur":"kristal","kimlik":"tahmin","renk":"Renksiz, buzlu","mohs":[7,7],"formul":"SiO₂","sistem":"Trigonal","bilgi":"Saf kuvarsa 'kaya kristali' de denir. Cam kesebilecek kadar sert, camdan bile daha sert.","not":""},
-{"id":"20261102_152439","ad":"Koyu Çakıl Taşı","tur":"kaya","kimlik":"tahmin","renk":"Koyu yeşil-siyah","mohs":null,"formul":"","bilgi":"Nehir veya deniz suyunun yuvarlayıp parlattığı sert bir taş. Bazalt ya da diyorit olabilir.","not":""},
-{"id":"20261102_152448","ad":"Kızıl Kaya","tur":"kaya","kimlik":"bilinmiyor","renk":"Kırmızı-turuncu, sarı","mohs":null,"formul":"","bilgi":"Kırmızı renk demir oksitten gelir. Jasper ya da demirli kumtaşı olabilir.","not":""},
-{"id":"20261102_152456","ad":"Obsidyen (Büyük)","tur":"kaya","kimlik":"tahmin","renk":"Siyah","mohs":[5,5.5],"formul":"Volkanik cam","bilgi":"Kıvrımlı kırılma yüzeyine konkoidal kırılma denir, tıpkı kırık cam gibi.","not":""},
-{"id":"20261102_152506","ad":"Fosil İstiridye","tur":"fosil","kimlik":"tahmin","renk":"Sarı-krem","mohs":[3,4],"formul":"CaCO₃","bilgi":"Fosil, bir canlının ya da izinin kayada korunmuş halidir.","not":""},
-{"id":"20261102_152515","ad":"Fosil Kabuk (Çizgili)","tur":"fosil","kimlik":"tahmin","renk":"Krem, yeşilimsi","mohs":[3,4],"formul":"CaCO₃","bilgi":"Yaşını bulmak için bulunduğu kayanın katmanına bakılır.","not":""},
-{"id":"20261102_152523","ad":"Yuvarlak Çakıl","tur":"kaya","kimlik":"bilinmiyor","renk":"Gri-bej","mohs":null,"formul":"","bilgi":"Suyun ve çarpmaların aşındırdığı bir çakıl. Hangi kayadan geldiğini bulalım.","not":""},
-{"id":"20261102_152537","ad":"Ametist (Cilalı)","tur":"kristal","kimlik":"tahmin","renk":"Mor","mohs":[7,7],"formul":"SiO₂","sistem":"Trigonal","bilgi":"Dönen tamburda parlatılmış küçük ametist parçası.","not":""},
-{"id":"20261102_152544","ad":"Fosil Midye (Büyük)","tur":"fosil","kimlik":"tahmin","renk":"Krem","mohs":[3,4],"formul":"CaCO₃","bilgi":"Yelpaze gibi yayılan kaburgalar büyüme çizgileridir.","not":""},
-{"id":"20261102_152557","ad":"Obsidyen (Küçük)","tur":"kaya","kimlik":"tahmin","renk":"Siyah","mohs":[5,5.5],"formul":"Volkanik cam","bilgi":"Aztekler obsidyenden ayna ve kılıç yapardı.","not":""}
+ {
+  "id": "20261028_210810",
+  "ad": "Pirit",
+  "tur": "mineral",
+  "kimlik": "dogrulandi",
+  "renk": "Metalik gri-altın",
+  "mohs": [
+   6,
+   6.5
+  ],
+  "formul": "FeS₂",
+  "bilgi": "Piritin takma adı 'aptal altını'dır, altına benzer ama çok daha sert ve kırılgandır. Çelikle çarpınca kıvılcım çıkarır.",
+  "not": "",
+  "sistem": "Kübik",
+  "parlaklik": "Metalik"
+ },
+ {
+  "id": "20261028_211107",
+  "ad": "Pirit",
+  "tur": "mineral",
+  "kimlik": "dogrulandi",
+  "renk": "Metalik gri-altın",
+  "mohs": [
+   6,
+   6.5
+  ],
+  "formul": "FeS₂",
+  "bilgi": "Piritin takma adı 'aptal altını'dır, altına benzer ama çok daha sert ve kırılgandır. Çelikle çarpınca kıvılcım çıkarır.",
+  "not": "",
+  "sistem": "Kübik",
+  "parlaklik": "Metalik"
+ },
+ {
+  "id": "20261028_211111",
+  "ad": "Gül Kuvars (Ay)",
+  "tur": "kristal",
+  "kimlik": "tahmin",
+  "renk": "Pembe",
+  "mohs": [
+   7,
+   7
+  ],
+  "formul": "SiO₂",
+  "sistem": "Trigonal",
+  "bilgi": "Pembe rengini çok az titanyum, mangan ya da demir verir. Nadiren belirgin kristal oluşturur, çoğunlukla süt gibi yekpare bulunur.",
+  "not": ""
+ },
+ {
+  "id": "20261028_211115",
+  "ad": "Pembe-Gri Geod Taşı",
+  "tur": "kristal",
+  "kimlik": "tahmin",
+  "renk": "Pembe, gri",
+  "mohs": [
+   6.5,
+   7
+  ],
+  "formul": "SiO₂",
+  "bilgi": "Kalsedon ya da agat türü olabilir. İçi oyuk kayalar volkanik gazlardan oluşan boşluklarda kristal büyütür.",
+  "not": ""
+ },
+ {
+  "id": "20261028_211126",
+  "ad": "Titanyum Aura Kuvars",
+  "tur": "kristal",
+  "kimlik": "tahmin",
+  "renk": "Gökkuşağı (mavi, mor, altın)",
+  "mohs": [
+   7,
+   7
+  ],
+  "formul": "SiO₂ + metal kaplama",
+  "sistem": "Trigonal",
+  "bilgi": "Doğal kuvarsın üstüne vakumda titanyum buharı kaplanır, ince tabaka ışığı gökkuşağı gibi kırar. Yani rengi doğal değil, insan yapımı.",
+  "not": ""
+ },
+ {
+  "id": "20261028_211133",
+  "ad": "Oyma Beyaz Taş",
+  "tur": "kristal",
+  "kimlik": "bilinmiyor",
+  "renk": "Beyaz, pembemsi",
+  "mohs": null,
+  "formul": "",
+  "bilgi": "Elle oyulmuş bir figür. Hangi taştan yapıldığını sertliğini ölçerek bulabiliriz (kalsit ise 3, kuvars ise 7).",
+  "not": ""
+ },
+ {
+  "id": "20261028_211143",
+  "ad": "Ametist Kümesi",
+  "tur": "kristal",
+  "kimlik": "tahmin",
+  "renk": "Mor",
+  "mohs": [
+   7,
+   7
+  ],
+  "formul": "SiO₂",
+  "sistem": "Trigonal",
+  "parlaklik": "Camsı",
+  "bilgi": "Mor kuvarstır. Rengini içindeki demir ve doğal radyasyon verir. Isıtılırsa sarıya (sitrin) dönebilir. Eski Yunanda 'sarhoş etmeyen' anlamına gelir.",
+  "not": ""
+ },
+ {
+  "id": "20261102_151019",
+  "ad": "Deniz Salyangozu Kabuğu",
+  "tur": "fosil",
+  "kimlik": "tahmin",
+  "renk": "Krem, kahverengi çizgili",
+  "mohs": [
+   3,
+   4
+  ],
+  "formul": "CaCO₃",
+  "bilgi": "Kabuk, yumuşakçanın vücudundan salgıladığı kalsiyum karbonattan yapılır. Dik spiral yapısı büyüdükçe genişleyen bir ev gibidir.",
+  "not": ""
+ },
+ {
+  "id": "20261102_151106",
+  "ad": "Kalsit Yumurta",
+  "tur": "mineral",
+  "kimlik": "tahmin",
+  "renk": "Sarımsı, yarı saydam",
+  "mohs": [
+   3,
+   3
+  ],
+  "formul": "CaCO₃",
+  "sistem": "Trigonal",
+  "bilgi": "Kalsit çok yumuşaktır, çiviyle çizilebilir. Üzerine sirke damlatırsan köpürür. Mermer ve kalkerin ana maddesidir.",
+  "not": ""
+ },
+ {
+  "id": "20261102_151125",
+  "ad": "Malakit Damarlı Kaya",
+  "tur": "mineral",
+  "kimlik": "tahmin",
+  "renk": "Yeşil, kahverengi",
+  "mohs": [
+   3.5,
+   4
+  ],
+  "formul": "Cu₂CO₃(OH)₂",
+  "sistem": "Monoklinik",
+  "bilgi": "Bakır yataklarının üst kısmında oluşur. Yeşil rengi bakırdan gelir. Antik Mısırlılar öğüterek göz boyası yaptı.",
+  "not": ""
+ },
+ {
+  "id": "20261102_151143",
+  "ad": "Sarı-Yeşil Mineral",
+  "tur": "mineral",
+  "kimlik": "bilinmiyor",
+  "renk": "Sarı, yeşil",
+  "mohs": null,
+  "formul": "",
+  "bilgi": "Serpantin ya da epidot olabilir. Kimliğini bulmak için sertlik ve çizgi rengi testi yapalım.",
+  "not": ""
+ },
+ {
+  "id": "20261102_151154",
+  "ad": "Fosil Kabuk",
+  "tur": "fosil",
+  "kimlik": "tahmin",
+  "renk": "Krem",
+  "mohs": [
+   3,
+   4
+  ],
+  "formul": "CaCO₃",
+  "bilgi": "Milyonlarca yıl önce deniz dibinde yaşayan bir canlının kabuğu taşlaşmış olabilir.",
+  "not": ""
+ },
+ {
+  "id": "20261102_151204",
+  "ad": "Volkanik Kaya (Cüruf)",
+  "tur": "kaya",
+  "kimlik": "tahmin",
+  "renk": "Kahverengi",
+  "mohs": null,
+  "formul": "",
+  "bilgi": "Lav hızla soğurken içindeki gaz kabarcıkları dışarı kaçıp delikler bıraktı. Bazalt türü magmatik (püskürük) bir kayadır.",
+  "not": ""
+ },
+ {
+  "id": "20261102_151215",
+  "ad": "Volkanik Kaya (Cüruf)",
+  "tur": "kaya",
+  "kimlik": "tahmin",
+  "renk": "Kahverengi",
+  "mohs": null,
+  "formul": "",
+  "bilgi": "Gözenekli yapısı hafiftir. Bazı volkanik taşlar gözenekleri çok olduğu için suda yüzer (pomza gibi).",
+  "not": ""
+ },
+ {
+  "id": "20261102_151220",
+  "ad": "Fosil Midye Kabuğu",
+  "tur": "fosil",
+  "kimlik": "tahmin",
+  "renk": "Krem",
+  "mohs": [
+   3,
+   4
+  ],
+  "formul": "CaCO₃",
+  "bilgi": "Yaşam halkaları ağacın yıllık halkaları gibi büyüme çizgilerini gösterir.",
+  "not": ""
+ },
+ {
+  "id": "20261102_151234",
+  "ad": "Spiral Kabuk",
+  "tur": "fosil",
+  "kimlik": "tahmin",
+  "renk": "Krem, beyaz",
+  "mohs": [
+   3,
+   4
+  ],
+  "formul": "CaCO₃",
+  "bilgi": "Spiral şekil doğada çok sık görülür: salyangoz, ay çiçeği, galaksiler.",
+  "not": ""
+ },
+ {
+  "id": "20261102_151257",
+  "ad": "Obsidyen",
+  "tur": "kaya",
+  "kimlik": "dogrulandi",
+  "renk": "Siyah",
+  "mohs": [
+   5,
+   5.5
+  ],
+  "formul": "Volkanik cam (SiO₂ ~%70)",
+  "bilgi": "Lav çok hızlı soğuyunca kristal oluşamaz, cam olur. Kırıldığında bıçak gibi keskin kenar verir; taş devrinde kesici alet yapılırdı.",
+  "not": ""
+ },
+ {
+  "id": "20261102_151322",
+  "ad": "Limonit (Demir Cevheri)",
+  "tur": "mineral",
+  "kimlik": "tahmin",
+  "renk": "Kahverengi, turuncu pas",
+  "mohs": [
+   4,
+   5.5
+  ],
+  "formul": "FeO(OH)·nH₂O",
+  "bilgi": "Pas renginin kaynağı. Demir su ve oksijenle buluşunca oluşur. Sarı kahve boya (oker) olarak kullanıldı.",
+  "not": ""
+ },
+ {
+  "id": "20261102_151509",
+  "ad": "Kuvars (Süt Kuvars)",
+  "tur": "kristal",
+  "kimlik": "tahmin",
+  "renk": "Beyaz, yarı saydam",
+  "mohs": [
+   7,
+   7
+  ],
+  "formul": "SiO₂",
+  "sistem": "Trigonal",
+  "parlaklik": "Camsı",
+  "bilgi": "Yer kabuğunda en bol bulunan minerallerden biri. Saat ve elektronik cihazlarda titreşim üretmek için de kullanılır.",
+  "not": ""
+ },
+ {
+  "id": "20261102_151654",
+  "ad": "Limonit / Göthit",
+  "tur": "mineral",
+  "kimlik": "tahmin",
+  "renk": "Siyah-kahve, sarı-turuncu",
+  "mohs": [
+   4,
+   5.5
+  ],
+  "formul": "FeO(OH)",
+  "bilgi": "Üzümsü (botrioidal) yüzeyi bir demir minerali olduğuna işaret eder.",
+  "not": ""
+ },
+ {
+  "id": "20261102_151751",
+  "ad": "Oniks (Kalsit) Yumurta",
+  "tur": "mineral",
+  "kimlik": "tahmin",
+  "renk": "Krem, kehribar çizgili",
+  "mohs": [
+   3,
+   4
+  ],
+  "formul": "CaCO₃",
+  "bilgi": "Ticarette 'oniks' denen yumurta ve heykelcikler çoğunlukla kalsit türü bantlı taştan yapılır.",
+  "not": ""
+ },
+ {
+  "id": "20261102_151805",
+  "ad": "Sarı-Yeşil Kaya",
+  "tur": "kaya",
+  "kimlik": "bilinmiyor",
+  "renk": "Yeşil, sarı, gri",
+  "mohs": null,
+  "formul": "",
+  "bilgi": "Serpantin gibi yeşilimsi bir kaya olabilir. Sarı lekeler başka bir mineral olabilir.",
+  "not": ""
+ },
+ {
+  "id": "20261102_151817",
+  "ad": "Malakit / Bakır Cevheri",
+  "tur": "mineral",
+  "kimlik": "tahmin",
+  "renk": "Yeşil, kızılımsı",
+  "mohs": [
+   3.5,
+   4
+  ],
+  "formul": "Cu₂CO₃(OH)₂",
+  "bilgi": "Yeşil renk bakır içeren minerallerin işaretidir. Özgürlük Heykeli de bakırdır; paslanınca yeşile döner.",
+  "not": ""
+ },
+ {
+  "id": "20261102_151848",
+  "ad": "Kuvars Geodu",
+  "tur": "kristal",
+  "kimlik": "tahmin",
+  "renk": "Beyaz, renksiz",
+  "mohs": [
+   7,
+   7
+  ],
+  "formul": "SiO₂",
+  "sistem": "Trigonal",
+  "bilgi": "Kayanın içindeki boşlukta mineral çözeltisi yavaş yavaş kristallenir. Geodun içi dışından çok farklı görünür.",
+  "not": ""
+ },
+ {
+  "id": "20261102_151858",
+  "ad": "Volkanik Kaya (Bazalt)",
+  "tur": "kaya",
+  "kimlik": "tahmin",
+  "renk": "Kahverengi",
+  "mohs": null,
+  "formul": "",
+  "bilgi": "Bazalt, okyanus tabanlarının büyük kısmını oluşturur.",
+  "not": ""
+ },
+ {
+  "id": "20261102_151906",
+  "ad": "Volkanik Kaya (Bazalt)",
+  "tur": "kaya",
+  "kimlik": "tahmin",
+  "renk": "Kahverengi",
+  "mohs": null,
+  "formul": "",
+  "bilgi": "Gözenekleri lav soğurken kaçan gazlardan kalmıştır.",
+  "not": ""
+ },
+ {
+  "id": "20261102_151918",
+  "ad": "Fosil Midye",
+  "tur": "fosil",
+  "kimlik": "tahmin",
+  "renk": "Krem",
+  "mohs": [
+   3,
+   4
+  ],
+  "formul": "CaCO₃",
+  "bilgi": "Midye gibi çift kabuklular (bivalv) 500 milyon yıldır yaşıyor.",
+  "not": ""
+ },
+ {
+  "id": "20261102_151924",
+  "ad": "Spiral Kabuk (Büyük)",
+  "tur": "fosil",
+  "kimlik": "tahmin",
+  "renk": "Krem",
+  "mohs": [
+   3,
+   4
+  ],
+  "formul": "CaCO₃",
+  "bilgi": "Spiralin merkezinden dışa doğru her tur biraz daha büyür (logaritmik spiral).",
+  "not": ""
+ },
+ {
+  "id": "20261102_151943",
+  "ad": "Sarı Taş",
+  "tur": "mineral",
+  "kimlik": "bilinmiyor",
+  "renk": "Sarı, hardal",
+  "mohs": null,
+  "formul": "",
+  "bilgi": "Limonit ya da sarı jasper olabilir. Çizgi rengine bakalım.",
+  "not": ""
+ },
+ {
+  "id": "20261102_151956",
+  "ad": "Yeşil-Sarı Kaya",
+  "tur": "kaya",
+  "kimlik": "bilinmiyor",
+  "renk": "Yeşil, sarı, siyah",
+  "mohs": null,
+  "formul": "",
+  "bilgi": "Birkaç mineralin birlikte bulunduğu bir kaya. Serpantin olabilir.",
+  "not": ""
+ },
+ {
+  "id": "20261102_152007",
+  "ad": "Kaplan Gözü (Ham)",
+  "tur": "kristal",
+  "kimlik": "tahmin",
+  "renk": "Altın-kahve",
+  "mohs": [
+   6.5,
+   7
+  ],
+  "formul": "SiO₂ (lif yapılı)",
+  "sistem": "Trigonal",
+  "parlaklik": "İpeksi",
+  "bilgi": "Kuvarsın içine sıkışmış lifler ışığı çizgi gibi yansıtır. Kediye benzeyen bu ışık oyununa şatuyans denir.",
+  "not": ""
+ },
+ {
+  "id": "20261102_152016",
+  "ad": "Kuvars Kristali",
+  "tur": "kristal",
+  "kimlik": "tahmin",
+  "renk": "Beyaz, şeffaf",
+  "mohs": [
+   7,
+   7
+  ],
+  "formul": "SiO₂",
+  "sistem": "Trigonal",
+  "bilgi": "Kuvarsın kristalleri altıgen prizma şeklinde büyür, ucu sivri olur.",
+  "not": ""
+ },
+ {
+  "id": "20261102_152026",
+  "ad": "Akik / Kalsedon",
+  "tur": "kristal",
+  "kimlik": "tahmin",
+  "renk": "Kahve, bal, beyaz",
+  "mohs": [
+   6.5,
+   7
+  ],
+  "formul": "SiO₂",
+  "bilgi": "Gözle görülemeyecek kadar ince kuvars kristallerinden oluşur (mikrokristalin). Taş devri aletleri de bu aileden yapıldı.",
+  "not": ""
+ },
+ {
+  "id": "20261102_152040",
+  "ad": "Mavi-Yeşil Bakır Taşı",
+  "tur": "mineral",
+  "kimlik": "bilinmiyor",
+  "renk": "Turkuaz, koyu yeşil",
+  "mohs": null,
+  "formul": "",
+  "bilgi": "Krizokol ya da malakit olabilir. İkisi de bakır içerir ve yumuşaktır.",
+  "not": ""
+ },
+ {
+  "id": "20261102_152104",
+  "ad": "Renkli Silisli Taş",
+  "tur": "kristal",
+  "kimlik": "bilinmiyor",
+  "renk": "Mavi, kırmızı, beyaz",
+  "mohs": null,
+  "formul": "",
+  "bilgi": "Jasper ya da opal türü olabilir. Renk karışımı farklı mineral katkılarından gelir.",
+  "not": ""
+ },
+ {
+  "id": "20261102_152116",
+  "ad": "Obsidyen",
+  "tur": "kaya",
+  "kimlik": "tahmin",
+  "renk": "Siyah",
+  "mohs": [
+   5,
+   5.5
+  ],
+  "formul": "Volkanik cam (SiO₂ ~%70)",
+  "bilgi": "Lav çok hızlı soğuyunca kristal oluşamaz, cam olur. Kırıldığında bıçak gibi keskin kenar verir; taş devrinde kesici alet yapılırdı.",
+  "not": ""
+ },
+ {
+  "id": "20261102_152130",
+  "ad": "Koyu Pasli Mineral",
+  "tur": "mineral",
+  "kimlik": "bilinmiyor",
+  "renk": "Koyu kahve, siyah",
+  "mohs": null,
+  "formul": "",
+  "bilgi": "Hematit ya da limonit olabilir. Çizgi renginden anlarız: hematit kırmızımsı, limonit sarımsı iz bırakır.",
+  "not": ""
+ },
+ {
+  "id": "20261102_152234",
+  "ad": "Kırmızı Jasper",
+  "tur": "kristal",
+  "kimlik": "tahmin",
+  "renk": "Kırmızı, kahverengi",
+  "mohs": [
+   6.5,
+   7
+  ],
+  "formul": "SiO₂ + demir oksit",
+  "bilgi": "Kırmızı rengi demir oksitten gelir. Opak (ışık geçirmeyen) kuvars türüdür.",
+  "not": ""
+ },
+ {
+  "id": "20261102_152308",
+  "ad": "Karnelian (Akik)",
+  "tur": "kristal",
+  "kimlik": "tahmin",
+  "renk": "Kırmızı-turuncu",
+  "mohs": [
+   6.5,
+   7
+  ],
+  "formul": "SiO₂",
+  "bilgi": "Parlatılmış karnelian ışığı geçirir. Antik çağda mühür taşı olarak kullanılırdı.",
+  "not": ""
+ },
+ {
+  "id": "20261102_152321",
+  "ad": "Çizgili Kumtaşı",
+  "tur": "kaya",
+  "kimlik": "tahmin",
+  "renk": "Bej, kırmızı-kahve",
+  "mohs": null,
+  "formul": "",
+  "bilgi": "Kum taneciklerinin birikip sıkışmasıyla oluşan tortul kayadır. Çizgiler farklı katmanları gösterir.",
+  "not": ""
+ },
+ {
+  "id": "20261102_152335",
+  "ad": "Turuncu Kalsit / Kuvars",
+  "tur": "mineral",
+  "kimlik": "bilinmiyor",
+  "renk": "Turuncu, şeftali",
+  "mohs": null,
+  "formul": "",
+  "bilgi": "Sertliği 3 ise kalsit, 7 ise kuvarstır. Çiviyle çizmeyi deneyelim.",
+  "not": ""
+ },
+ {
+  "id": "20261102_152347",
+  "ad": "Altın Benekli Kaya (Pirit?)",
+  "tur": "mineral",
+  "kimlik": "tahmin",
+  "renk": "Altın sarısı benekli, kırmızı-kahve",
+  "mohs": [
+   6,
+   6.5
+  ],
+  "formul": "FeS₂",
+  "sistem": "Kübik",
+  "bilgi": "Piritin takma adı 'aptal altını'dır. Çelikle çarpınca kıvılcım çıkarır.",
+  "not": ""
+ },
+ {
+  "id": "20261102_152402",
+  "ad": "Kükürt",
+  "tur": "mineral",
+  "kimlik": "tahmin",
+  "renk": "Limon sarısı",
+  "mohs": [
+   1.5,
+   2.5
+  ],
+  "formul": "S",
+  "sistem": "Ortorombik",
+  "bilgi": "Volkanların ve kaplıcaların yakınında bulunur. Yanarsa mavi alev verir ve kötü kokar. Çok yumuşaktır.",
+  "not": ""
+ },
+ {
+  "id": "20261102_152416",
+  "ad": "Kalker (Kireçtaşı)",
+  "tur": "kaya",
+  "kimlik": "tahmin",
+  "renk": "Bej, krem",
+  "mohs": null,
+  "formul": "CaCO₃",
+  "bilgi": "Kalker, deniz canlılarının kabuklarının milyonlarca yıl birikmesiyle oluşur. Üzerine sirke damlatınca köpürür.",
+  "not": ""
+ },
+ {
+  "id": "20261102_152427",
+  "ad": "Şeffaf Kuvars",
+  "tur": "kristal",
+  "kimlik": "tahmin",
+  "renk": "Renksiz, buzlu",
+  "mohs": [
+   7,
+   7
+  ],
+  "formul": "SiO₂",
+  "sistem": "Trigonal",
+  "bilgi": "Saf kuvarsa 'kaya kristali' de denir. Cam kesebilecek kadar sert, camdan bile daha sert.",
+  "not": ""
+ },
+ {
+  "id": "20261102_152439",
+  "ad": "Koyu Çakıl Taşı",
+  "tur": "kaya",
+  "kimlik": "tahmin",
+  "renk": "Koyu yeşil-siyah",
+  "mohs": null,
+  "formul": "",
+  "bilgi": "Nehir veya deniz suyunun yuvarlayıp parlattığı sert bir taş. Bazalt ya da diyorit olabilir.",
+  "not": ""
+ },
+ {
+  "id": "20261102_152448",
+  "ad": "Kızıl Kaya",
+  "tur": "kaya",
+  "kimlik": "bilinmiyor",
+  "renk": "Kırmızı-turuncu, sarı",
+  "mohs": null,
+  "formul": "",
+  "bilgi": "Kırmızı renk demir oksitten gelir. Jasper ya da demirli kumtaşı olabilir.",
+  "not": ""
+ },
+ {
+  "id": "20261102_152456",
+  "ad": "Obsidyen (Büyük)",
+  "tur": "kaya",
+  "kimlik": "tahmin",
+  "renk": "Siyah",
+  "mohs": [
+   5,
+   5.5
+  ],
+  "formul": "Volkanik cam",
+  "bilgi": "Kıvrımlı kırılma yüzeyine konkoidal kırılma denir, tıpkı kırık cam gibi.",
+  "not": ""
+ },
+ {
+  "id": "20261102_152506",
+  "ad": "Fosil İstiridye",
+  "tur": "fosil",
+  "kimlik": "tahmin",
+  "renk": "Sarı-krem",
+  "mohs": [
+   3,
+   4
+  ],
+  "formul": "CaCO₃",
+  "bilgi": "Fosil, bir canlının ya da izinin kayada korunmuş halidir.",
+  "not": ""
+ },
+ {
+  "id": "20261102_152515",
+  "ad": "Fosil Kabuk (Çizgili)",
+  "tur": "fosil",
+  "kimlik": "tahmin",
+  "renk": "Krem, yeşilimsi",
+  "mohs": [
+   3,
+   4
+  ],
+  "formul": "CaCO₃",
+  "bilgi": "Yaşını bulmak için bulunduğu kayanın katmanına bakılır.",
+  "not": ""
+ },
+ {
+  "id": "20261102_152523",
+  "ad": "Yuvarlak Çakıl",
+  "tur": "kaya",
+  "kimlik": "bilinmiyor",
+  "renk": "Gri-bej",
+  "mohs": null,
+  "formul": "",
+  "bilgi": "Suyun ve çarpmaların aşındırdığı bir çakıl. Hangi kayadan geldiğini bulalım.",
+  "not": ""
+ },
+ {
+  "id": "20261102_152537",
+  "ad": "Ametist (Cilalı)",
+  "tur": "kristal",
+  "kimlik": "tahmin",
+  "renk": "Mor",
+  "mohs": [
+   7,
+   7
+  ],
+  "formul": "SiO₂",
+  "sistem": "Trigonal",
+  "bilgi": "Dönen tamburda parlatılmış küçük ametist parçası.",
+  "not": ""
+ },
+ {
+  "id": "20261102_152544",
+  "ad": "Fosil Midye (Büyük)",
+  "tur": "fosil",
+  "kimlik": "tahmin",
+  "renk": "Krem",
+  "mohs": [
+   3,
+   4
+  ],
+  "formul": "CaCO₃",
+  "bilgi": "Yelpaze gibi yayılan kaburgalar büyüme çizgileridir.",
+  "not": ""
+ },
+ {
+  "id": "20261102_152557",
+  "ad": "Obsidyen (Küçük)",
+  "tur": "kaya",
+  "kimlik": "tahmin",
+  "renk": "Siyah",
+  "mohs": [
+   5,
+   5.5
+  ],
+  "formul": "Volkanik cam",
+  "bilgi": "Aztekler obsidyenden ayna ve kılıç yapardı.",
+  "not": ""
+ }
 ]
